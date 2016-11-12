@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tutorial CSS|Layout|Simple</title>
+		<style type="text/css">
+		body{
+		background-color:white;
+		margin:0;
+		padding:0;
+		font-family:sans-serif;
+		}
+		
+		#container{
+			border:1px solid black;
+			overflow: hidden;
+		}
+		
+		#wrapper{
+			border: 1px solid black;
+			margin: 10px;
+			padding:100px;
+			background-color: #448844;
+			width: 80%;
+		}
+		
+		.left{
+			float:left;
+			border: 1px solid black;
+			margin:10px;
+			background-color: #884444;
+			padding-bottom: 800px;
+			margin-bottom: -780px;
+			width: 30%;
+			
+		}
+		
+		.right{
+			float:left;
+			border:1px solid black;
+			margin: 10px;
+			background-color:#444488;
+			padding-bottom: 800px;
+			margin-bottom: -780px;
+			width: 60%;
+		}
+		
+		footer{
+			clear:both;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+		<header>
+		<h1>Tutorial CSS:Navgation - Simple</h1>
+		</header>
+		<div id="container">
+			<div class="left">
+				<ul>
+					<li>Read emails</li>
+					<li>Write chapter</li>
+					<li>Go shopping</li>
+					<li>Cook dinner</li>
+					<li>Watch Lost</li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Our Work</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Our Work</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Our Work</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Our Services</a></li>
+					<li><a href="#">Our Work</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+		<p>copyright 2016</p>
+		</footer>
+		</div>
+	</body>
+</html>

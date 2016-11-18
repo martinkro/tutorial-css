@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>star</title>
+    <style type="text/css">
+        body,div{
+            padding:0;
+            margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div id="x" onclick="getRating(3);">Click me</div>
+    <script type="text/javascript">
+    function getRating(rating){
+        if (rating > 5 || rating < 0) throw new Error("Error");
+        var div=document.getElementById('x');
+        div.innderHTML="★★★★★☆☆☆☆☆".substring(5 - rating, 10 - rating );
+    }
+    </script>
+</body>
+</html>
